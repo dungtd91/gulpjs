@@ -20,4 +20,4 @@ This README would document whatever steps are necessary to get your application 
 
 ### Production Version ###
 
-* Outside the src folder run: gulp prod in command promt.
+* Outside the src folder run: gulp build in command promt.

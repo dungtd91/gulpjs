@@ -69,10 +69,14 @@ gulp.task('css', function () {
     .pipe(gulp.dest('./dist/css'));
 });
 
+/*-----Copy Js files--------*/
+
 gulp.task('js', function(){
 	gulp.src('src/js/**/*.js')
         .pipe(gulp.dest('dist/js/'));
 });
+
+/*-----Copy Images--------*/
 
 gulp.task('img', function() {
     gulp.src('src/img/*.*')
@@ -80,11 +84,15 @@ gulp.task('img', function() {
         .pipe(gulp.dest('dist/img'));
 });
 
+/*-----Copy Fonts--------*/
+
 gulp.task('fonts', function(){
 	gulp.src('src/fonts/**/*.*')
         .pipe(gulp.dest('dist/fonts/'));
 });
 
-gulp.task('prod',['html','css','img','fonts','js'], function(){
+/*-----Gulp Task for Production--------*/
+
+gulp.task('build',['html','css','img','fonts','js'], function(){
   console.log('Production work is almost done :)');
 });
