@@ -1,0 +1,35 @@
+{
+  "name": "development",
+  "version": "1.0.0",
+      "description": "Gulp task runner using Pug , Scss and BrowserSync ",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "harp": "harp server --port 1212",
+    "serve": "gulp serve"
+  },
+  "author": "Vijay Kolar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.13.3",
+    "gulp-stylefmt": "^1.0.0",
+    "imagemin": "^5.2.2",
+    "svgo": "^0.7.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "cssnano": "^3.10.0",
+    "express": "^4.13.3",
+    "gulp": "^3.9.1",
+    "harp": "^0.23.0",
+    "dssrv-srv-prerender": "^1.1.13",
+    "gulp-harp": "0.0.4",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uncss": "*"
+  }
+}
