@@ -14,7 +14,6 @@ This README would document whatever steps are necessary to get your application 
 ### Getting set up ###
 
 * Install gulp globally: $ npm install --global gulp-cli
-* Install harp globally: $ npm install -g harp
 * Install development packages: npm install
 * Run Gulp server: gulp server .
 
