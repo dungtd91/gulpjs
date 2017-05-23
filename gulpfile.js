@@ -12,7 +12,7 @@ var cssmin            = require('gulp-cssmin');
 var rename            = require('gulp-rename');
 var reload            = browserSync.reload;
 
-gulp.task('default', function(){
+gulp.task('default',['css','watch'], function(){
   gutil.log("Gulp is running");
 });
 

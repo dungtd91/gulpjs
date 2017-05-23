@@ -1,0 +1,21 @@
+doctype html
+html(lang='en')
+
+	- var title = "Gulp Js"
+	- var page_name= "home"
+	include jade/base/head.jade
+	+header(title)
+	
+	body
+		//START: Header
+		include jade/components/header.jade
+		//START: Main
+		main
+		
+			h1 Main Section
+			
+		//START: Footer
+		include jade/components/footer.jade
+
+		include jade/base/scripts.jade
+		+script(page_name)
